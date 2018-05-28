@@ -1,3 +1,5 @@
+<img src="https://bayfrontmedia.github.io/Skin/docs/images/bfm-skin-logo.jpg" alt="Skin" height="140" />
+
 # Skin
 A lightweight, responsive, mobile-first framework to build beautiful websites quickly.
 
