@@ -4,7 +4,7 @@
 *
 * @author John Robinson <john@bayfrontmedia.com>
 * @copyright Copyright (c) 2018 Bayfront Media
-* @link https://github.com/bayfrontmedia/skin
+* @link https://github.com/BayfrontMedia/Skin
 *
 */
 
