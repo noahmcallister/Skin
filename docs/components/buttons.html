@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="../../vendor/fa/css/fa-light.min.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="../../vendor/fa/css/fa-brands.min.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="../../vendor/fa/css/fontawesome.min.css" type="text/css" media="all" />
+
+		<link rel="stylesheet" href="../../css/bfm-skin.min.css" type="text/css" media="all" />
+		
+		<link rel="stylesheet" href="../../vendor/prism/prism.css" media="all" />
+	
+		<link rel="stylesheet" href="../../style.css" type="text/css" media="all" />
+		
+		<!-- Start Icons -->
+	
+		<link rel="apple-touch-icon" sizes="57x57" href="../../images/favicons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../../images/favicons/icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../../images/favicons/icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../../images/favicons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../../images/favicons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../../images/favicons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../../images/favicons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../../images/favicons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../../images/favicons/apple-icon-180x180.png">
+		<link rel="icon" href="../../images/favicons/favicon.ico">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../../images/favicons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../../images/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../../images/favicons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../../images/favicons/favicon-16x16.png">
+		<link rel="manifest" href="../../images/favicons/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- End Icons -->
+
+		<!-- Start OG Tags -->
+
+		<meta property="og:site_name" content="BFM Skin">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="BFM Skin">
+		<meta property="og:description" content="BFM Skin">
+		<meta property="og:image" content="images/bfm-logo.jpg">
+		<meta property="og:url" content="https://www.bayfrontmedia.com/">
+		
+		<!-- End OG Tags -->
+
+		<title>BFM Skin</title>
+		<meta name="description" content="BFM Skin">
+	
+	</head>
+	
+	<body class="flat edge">
+
+		<div id="top-nav-container" class="shadow">
+			
+			<div class="top-nav-contents-xl">
+
+				<a id="top-nav-logo" href="../../index.html" title="Home"><img src="../../images/bfm-skin-nav.png" alt="BFM Skin" /></a>
+				
+				<nav id="top-nav-list">
+					<ul>
+						<li><a href="../../index.html" title="Home">Home</a></li>
+						<li><a href="../index.html" title="Getting started">Getting Started</a></li>
+						<li><a href="index.html" title="Components">Components</a></li>
+						<li><a href="../templates/index.html" title="Templates">Templates</a></li>
+					</ul>
+				</nav>
+				
+				<i id="top-nav-toggle" class="fal fa-bars"></i>
+					
+			</div> <!-- /.top-nav-contents-lg -->
+	
+		</div> <!-- /#top-nav-container -->
+	
+		<div id="wrapper">
+			
+			<div id="content" class="container-xl no-top">
+				
+				<div class="row flex-md-row-reverse">
+					
+					<main class="col-md-8 padding1-0">
+						
+						<ul class="horizontal kb-breadcrumb">
+							<li><a href="../../index.html" title="Skin">Skin</a></li>
+							<li><a href="index.html" title="Components">Components</a></li>
+							<li>Buttons</li>
+						</ul>
+	
+						<h1>Buttons</h1>
+				
+						<h2 id="standalone-buttons">Standalone Buttons</h2>
+					
+						<p>Buttons can be created as a hyperlink or div with class <code>button</code>, or as an actual <code>&lt;button&gt;</code> element. There are a few default button classes to help with commonly used styles, but buttons can be completely customized using <code>bfm-customize.css</code> classes.</p>
+					
+						<h4>Default buttons</h4>
+					
+						<a class="button" href="#" title="Button">Hyperlink Button</a> <div class="button">Div Button</div> <button>Button</button>
+					
+						<pre><code class="language-html">
+							&lt;a class="button" href="#" title="Button"&gt;Hyperlink Button&lt;/a&gt;
+							&lt;div class="button"&gt;Div Button&lt;/div&gt;
+							&lt;button&gt;Button&lt;/button&gt;
+						</code></pre>
+					
+						<h4>Button types &amp; custom buttons</h4>
+				
+						<a class="button box-default hover-box-default" href="#" title="Button">Box Default</a> <a class="button box-info hover-box-info" href="#" title="Button">Box Info</a> <a class="button box-warning hover-box-warning" href="#" title="Button">Box Warning</a> <a class="button box-error hover-box-error" href="#" title="Button">Box Error</a> <a class="button box-success hover-box-success" href="#" title="Button">Box Success</a><br />
+						<a class="button bg-main hover-bg-blue color-blue hover-color-white border-blue" href="#" title="Button">Custom Button</a> <a class="button bg-green hover-opacity75 color-white hover-color-white border-green" href="#" title="Button"><i class="fal fa-check"></i> Agree</a> <a class="button bg-red hover-opacity75 color-white hover-color-white border-red" href="#" title="Button"><i class="fal fa-times"></i> Cancel</a>
+		
+						<pre><code class="language-html">
+							&lt;a class="button box-default hover-box-default" href="#" title="Button"&gt;Box Default&lt;/a&gt;
+							&lt;a class="button box-info hover-box-info" href="#" title="Button"&gt;Box Info&lt;/a&gt;
+							&lt;a class="button box-warning hover-box-warning" href="#" title="Button"&gt;Box Warning&lt;/a&gt;
+							&lt;a class="button box-error hover-box-error" href="#" title="Button"&gt;Box Error&lt;/a&gt;
+							&lt;a class="button box-success hover-box-success" href="#" title="Button"&gt;Box Success&lt;/a&gt;
+							&lt;a class="button bg-main hover-bg-blue color-blue hover-color-white border-blue" href="#" title="Button"&gt;Custom Button&lt;/a&gt;
+							&lt;a class="button bg-green hover-opacity75 color-white hover-color-white border-green" href="#" title="Button"&gt;&lt;i class="fal fa-check"&gt;&lt;/i&gt; Agree&lt;/a&gt;
+							&lt;a class="button bg-red hover-opacity75 color-white hover-color-white border-red" href="#" title="Button"&gt;&lt;i class="fal fa-times"&gt;&lt;/i&gt; Cancel&lt;/a&gt;
+						</code></pre>
+	
+						<h2 id="grouped-buttons">Grouped Buttons</h2>
+	
+						<div class="grouped">
+				
+							<a class="button" href="#" title="Click me"><i class="fa-fw fal fa-cut"></i></a><a class="button" href="#" title="Click me"><i class="fa-fw fal fa-copy"></i></a><a class="button active" href="#" title="Click me"><i class="fa-fw fal fa-paste"></i></a><a class="button" href="#" title="Click me"><i class="fa-fw fal fa-save"></i></a>
+				
+						</div> <!-- /.grouped -->
+					
+						<br />
+					
+						<div class="grouped">
+				
+							<a class="button bg-gradient-dd hover-bg-gradient-du" href="#" title="Click me"><i class="fa-fw fal fa-cut"></i></a><a class="button bg-gradient-dd hover-bg-gradient-du" href="#" title="Click me"><i class="fa-fw fal fa-copy"></i></a><a class="button bg-gradient-du" href="#" title="Click me"><i class="fa-fw fal fa-paste"></i></a><a class="button bg-gradient-dd hover-bg-gradient-du" href="#" title="Click me"><i class="fa-fw fal fa-save"></i></a>
+				
+						</div> <!-- /.grouped -->
+					
+						<br />
+					
+						<div class="grouped">
+				
+							<a class="button bg-main hover-bg-dark hover-color-main" href="#" title="Favorite"><i class="fa-fw fal fa-star"></i> Favorite</a><a class="button hover-bg-white" href="#" title="Favorite">5</a>
+				
+						</div> <!-- /.grouped -->
+					
+						<pre><code class="language-html">
+							&lt;div class="grouped"&gt;
+				
+								&lt;a class="button" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-cut"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class="button" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-copy"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class="button active" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-paste"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class="button" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-save"&gt;&lt;/i&gt;&lt;/a&gt;
+				
+							&lt;/div&gt; &lt;!-- /.grouped --&gt;
+					
+							&lt;br /&gt;
+					
+							&lt;div class="grouped"&gt;
+				
+								&lt;a class="button bg-gradient-dd hover-bg-gradient-du" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-cut"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class="button bg-gradient-dd hover-bg-gradient-du" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-copy"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class="button bg-gradient-du" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-paste"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class="button bg-gradient-dd hover-bg-gradient-du" href="#" title="Click me"&gt;&lt;i class="fa-fw fal fa-save"&gt;&lt;/i&gt;&lt;/a&gt;
+				
+							&lt;/div&gt; &lt;!-- /.grouped --&gt;
+					
+							&lt;br /&gt;
+					
+							&lt;div class="grouped"&gt;
+				
+								&lt;a class="button bg-main hover-bg-dark hover-color-main" href="#" title="Favorite"&gt;&lt;i class="fa-fw fal fa-star"&gt;&lt;/i&gt; Favorite&lt;/a&gt;&lt;a class="button hover-bg-white" href="#" title="Favorite"&gt;5&lt;/a&gt;
+				
+							&lt;/div&gt; &lt;!-- /.grouped --&gt;
+						</code></pre>
+					
+						<h2 id="build-your-own">Build your own</h2>
+					
+						<p>You can build your own buttons by customizing the size, background, font color, border, and border radius. There are thousands of possible combinations.</p>
+					
+						<h4>Color combinations</h4>
+					
+						<div class="button hover-bg-main">White Button</div>
+	
+						<div class="button bg-main hover-bg-white">Gray Button</div>
+	
+						<div class="button bg-gradient-dd hover-bg-gradient-du">Gradient Button</div>
+	
+						<div class="button bg-gradient-du hover-bg-gradient-dd">Gradient Button</div>
+	
+						<div class="button bg-yellow border-yellow hover-opacity75 color-white">Yellow Button</div>
+	
+						<div class="button bg-orange border-orange hover-opacity75 color-white">Orange Button</div>
+	
+						<div class="button bg-red border-red hover-opacity75 color-white">Red Button</div>
+	
+						<div class="button bg-pink border-pink hover-opacity75 color-white">Pink Button</div>
+	
+						<div class="button bg-purple border-purple hover-opacity75 color-white">Purple Button</div>
+	
+						<div class="button bg-blue border-blue hover-opacity75 color-white">Blue Button</div>
+	
+						<div class="button bg-aqua border-aqua hover-opacity75 color-white">Aqua Button</div>
+	
+						<div class="button bg-green border-green hover-opacity75 color-white">Green Button</div>
+	
+						<div class="button bg-turquoise border-turquoise hover-opacity75 color-white">Turquoise Button</div>
+	
+						<div class="button bg-midnight border-midnight hover-opacity75 color-white">Midnight Button</div>
+	
+						<div class="button bg-silver border-silver hover-opacity75 color-white">Silver Button</div>
+	
+						<div class="button bg-black border-black hover-opacity75 color-white">Black Button</div>
+					
+						<h4>Brands style 1</h4>
+					
+						<div class="button bg-dribbble border-dribbble hover-opacity75 color-white"><i class="fab fa-dribbble"></i> Dribbble</div>
+					
+						<div class="button bg-facebook border-facebook hover-opacity75 color-white"><i class="fab fa-facebook"></i> Facebook</div>
+					
+						<div class="button bg-flickr border-flickr hover-opacity75 color-white"><i class="fab fa-flickr"></i> Flickr</div>
+					
+						<div class="button bg-google-plus border-google-plus hover-opacity75 color-white"><i class="fab fa-google-plus"></i> Google+</div>
+					
+						<div class="button bg-instagram border-instagram hover-opacity75 color-white"><i class="fab fa-instagram"></i> Instagram</div>
+					
+						<div class="button bg-linkedin border-linkedin hover-opacity75 color-white"><i class="fab fa-linkedin"></i> LinkedIn</div>
+					
+						<div class="button bg-pinterest border-pinterest hover-opacity75 color-white"><i class="fab fa-pinterest"></i> Pinterest</div>
+					
+						<div class="button bg-quora border-quora hover-opacity75 color-white"><i class="fab fa-quora"></i> Quora</div>
+					
+						<div class="button bg-rss border-rss hover-opacity75 color-white"><i class="fal fa-rss"></i> RSS</div>
+					
+						<div class="button bg-soundcloud border-soundcloud hover-opacity75 color-white"><i class="fab fa-soundcloud"></i> Soundcloud</div>
+					
+						<div class="button bg-tumblr border-tumblr hover-opacity75 color-white"><i class="fab fa-tumblr"></i> Tumblr</div>
+					
+						<div class="button bg-twitter border-twitter hover-opacity75 color-white"><i class="fab fa-twitter"></i> Twitter</div>
+	
+						<div class="button bg-vimeo border-vimeo hover-opacity75 color-white"><i class="fab fa-vimeo-v"></i> Vimeo</div>
+	
+						<div class="button bg-wordpress border-wordpress hover-opacity75 color-white"><i class="fab fa-wordpress"></i> WordPress</div>
+	
+						<div class="button bg-yahoo border-yahoo hover-opacity75 color-white"><i class="fab fa-yahoo"></i> Yahoo</div>
+	
+						<div class="button bg-youtube border-youtube hover-opacity75 color-white"><i class="fab fa-youtube"></i> YouTube</div>
+					
+						<h4>Brands style 2</h4>
+					
+						<div class="button bg-main hover-bg-dribbble color-light hover-color-white hover-border-dribbble"><i class="fab fa-dribbble"></i> Dribbble</div>
+					
+						<div class="button bg-main hover-bg-facebook color-light hover-color-white hover-border-facebook"><i class="fab fa-facebook"></i> Facebook</div>
+					
+						<div class="button bg-main hover-bg-flickr color-light hover-color-white hover-border-flickr"><i class="fab fa-flickr"></i> Flickr</div>
+					
+						<div class="button bg-main hover-bg-google-plus color-light hover-color-white hover-border-google-plus"><i class="fab fa-google-plus"></i> Google+</div>
+					
+						<div class="button bg-main hover-bg-instagram color-light hover-color-white hover-border-instagram"><i class="fab fa-instagram"></i> Instagram</div>
+					
+						<div class="button bg-main hover-bg-linkedin color-light hover-color-white hover-border-linkedin"><i class="fab fa-linkedin"></i> LinkedIn</div>
+					
+						<div class="button bg-main hover-bg-pinterest color-light hover-color-white hover-border-pinterest"><i class="fab fa-pinterest"></i> Pinterest</div>
+					
+						<div class="button bg-main hover-bg-quora color-light hover-color-white hover-border-quora"><i class="fab fa-quora"></i> Quora</div>
+					
+						<div class="button bg-main hover-bg-rss color-light hover-color-white hover-border-rss"><i class="fal fa-rss"></i> RSS</div>
+					
+						<div class="button bg-main hover-bg-soundcloud color-light hover-color-white hover-border-soundcloud"><i class="fab fa-soundcloud"></i> SoundCloud</div>
+					
+						<div class="button bg-main hover-bg-tumblr color-light hover-color-white hover-border-tumblr"><i class="fab fa-tumblr"></i> Tumblr</div>
+					
+						<div class="button bg-main hover-bg-twitter color-light hover-color-white hover-border-twitter"><i class="fab fa-twitter"></i> Twitter</div>
+	
+						<div class="button bg-main hover-bg-vimeo color-light hover-color-white hover-border-vimeo"><i class="fab fa-vimeo"></i> Vimeo</div>
+	
+						<div class="button bg-main hover-bg-wordpress color-light hover-color-white hover-border-wordpress"><i class="fab fa-wordpress"></i> WordPress</div>
+	
+						<div class="button bg-main hover-bg-yahoo color-light hover-color-white hover-border-yahoo"><i class="fab fa-yahoo"></i> Yahoo</div>
+	
+						<div class="button bg-main hover-bg-youtube color-light hover-color-white hover-border-youtube"><i class="fab fa-youtube"></i> YouTube</div>
+	
+					</main> <!-- /.col-md-8 -->
+
+					<aside class="col-md-4 padding1-0 bg-main border-solid border-right1 border-left1 border-main">
+	
+						<h4>Topics</h4>
+						
+						<div class="toggle-all kb-toggle-all color-light em0-8 pointer" data-label="- Collapse all">+ Expand all</div>
+						
+						<div class="toggle-title kb-menu-title border-top1 border-solid border-main" data-toggle="introduction">Introduction <span class="toggle-icon"><i class="fal fa-angle-right"></i></span></div>
+						<div class="toggle-content" id="introduction">
+							
+							<ul class="indent">
+								<li><a href="../index.html" title="Getting started">Getting started</a></li>
+								<li><a href="../build-page.html" title="Build a page">Build a page</a></li>
+								<li><a href="../changelog.html" title="Changelog">Changelog</a></li>
+								<li><a href="../about.html" title="About">About</a></li>
+								<li><a href="../vendors.html" title="Vendors">Vendors</a></li>
+							</ul>
+							
+						</div>
+						
+						<div class="toggle-title kb-menu-title border-top1 border-solid border-main" data-toggle="components">Components <span class="toggle-icon"><i class="fal fa-angle-right"></i></span></div>
+						<div class="toggle-content toggle-open" id="components">
+							
+							<ul class="indent color-light">
+								<li><a href="animate.html" title="Animate">Animate</a></li>
+								<li><a href="badges.html" title="Badges">Badges</a></li>
+								<li><a href="blockquote.html" title="Blockquote">Blockquote</a></li>
+								<li><a href="bottom-bar.html" title="Bottom bar">Bottom bar</a></li>
+								<li>Buttons</li>
+								<li><a href="code.html" title="Code">Code</a></li>
+								<li><a href="customization.html" title="Customization">Customization</a></li>
+								<li><a href="fonts.html" title="Fonts">Fonts</a></li>
+								<li><a href="forms.html" title="Forms">Forms</a></li>
+								<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+								<li><a href="grid.html" title="Grid">Grid</a></li>
+								<li><a href="icons.html" title="Icons">Icons</a></li>
+								<li><a href="images.html" title="Images">Images</a></li>
+								<li><a href="javascript.html" title="Javascript">Javscript</a></li>
+								<li><a href="notes.html" title="Notes">Notes</a></li>
+								<li><a href="progress-bars.html" title="Progress bars">Progress bars</a></li>
+								<li><a href="tables.html" title="Tables">Tables</a></li>
+								<li><a href="toggle.html" title="Toggle">Toggle</a></li>
+								<li><a href="typography.html" title="Typography">Typography</a></li>
+							</ul>
+							
+						</div>
+						
+						<div class="toggle-title kb-menu-title border-top1 border-solid border-main" data-toggle="templates">Templates <span class="toggle-icon"><i class="fal fa-angle-right"></i></span></div>
+						<div class="toggle-content" id="templates">
+							
+							<ul class="indent">
+								<li><a href="../templates/page-default.html" title="Default page">Default page</a></li>
+								<li><a href="../templates/page-edge.html" title="Edge page">Edge page</a></li>
+								<li><a href="../templates/page-flat.html" title="Flat page">Flat page</a></li>
+								<li><a href="../templates/page-boxed.html" title="Boxed page">Boxed page</a></li>
+								<li><a href="../templates/knowledgebase.html" title="Knowledgebase">Knowledgebase</a></li>
+								<li><a href="../templates/landing-page.html" title="Landing page">Landing page</a></li>
+							</ul>
+							
+						</div>
+						
+					</aside> <!-- /.col-md-4 -->
+
+				</div> <!-- /.row -->
+				
+				<footer>
+					
+					<div class="row align-items-center">
+					
+						<div class="col-6">
+							
+							<a href="//bayfrontmedia.github.io/skin" title="Skin Docs"><img class="skin-icon" src="../../images/bfm-skin-icon.png" alt="Skin Docs" /></a>
+							
+						</div> <!-- /.col-6 -->
+						
+						<div class="col-6">
+							
+							<p class="align-right">Skin v1.0<br /><a href="https://github.com/bayfrontmedia/skin" title="Skin on GitHub">Skin on GitHub</a></p>
+							
+						</div> <!-- /.col-6 -->
+						
+					</div> <!-- /.row -->
+					
+				</footer>
+				
+			</div> <!-- /#content -->
+		
+		</div> <!-- /#wrapper -->
+	
+		<a id="top-button" href="#top" title="Scroll to top"><span class="fa-stack"><i class="fal fa-circle fa-stack-2x"></i><i class="fal fa-arrow-to-top fa-stack-1x"></i></span></a>
+	
+		<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script src="../../vendor/prism/prism.js"></script>
+	
+		<script src="../../js/bfm-skin-scripts.min.js"></script>
+
+	</body>
+	
+</html>

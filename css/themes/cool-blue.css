@@ -1,0 +1,59 @@
+/*
+	style-cool-blue.css
+	
+	Main theme colors:
+		Blue: #004770
+		Green: #22b573
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Source+Sans+Pro:400,600');
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #ecf0f5;
+}
+a {
+	color: #0077bd;
+}
+
+h1, h2, h3, h4, h5, h6, th, blockquote, .pullquote, .shoutout, button, .button, .badge, .progress-amt, input[type='submit'] {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+#top-nav-container {
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #004770;
+	color: #fff;
+}
+#top-nav-list {
+	background-color: #004770;
+}
+#top-nav-list ul li:first-of-type {
+	border-top: 2px solid #22b573;
+}
+#top-nav-list ul li a {
+	color: #fff;	
+}	
+#top-nav-list ul li a:hover {
+	text-decoration: none;
+	color: #47dc99; /* +3 */
+}
+#top-nav-list li.active a {
+	color: #87e8bd; /* +6 */
+}
+
+@media (min-width: 600px) { 
+	
+	#top-nav-container {
+		font-size: 0.9em;
+	}
+	#top-nav-list ul li:first-of-type {
+		border-top: none;
+	}
+	#top-nav-list ul li a {
+		color: #fff;	
+	}
+	
+}

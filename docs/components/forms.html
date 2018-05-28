@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="../../vendor/fa/css/fa-light.min.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="../../vendor/fa/css/fontawesome.min.css" type="text/css" media="all" />
+
+		<link rel="stylesheet" href="../../css/bfm-skin.min.css" type="text/css" media="all" />
+		
+		<link rel="stylesheet" href="../../vendor/prism/prism.css" media="all" />
+	
+		<link rel="stylesheet" href="../../style.css" type="text/css" media="all" />
+		
+		<!-- Start Icons -->
+	
+		<link rel="apple-touch-icon" sizes="57x57" href="../../images/favicons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../../images/favicons/icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../../images/favicons/icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../../images/favicons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../../images/favicons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../../images/favicons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../../images/favicons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../../images/favicons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../../images/favicons/apple-icon-180x180.png">
+		<link rel="icon" href="../../images/favicons/favicon.ico">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../../images/favicons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../../images/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../../images/favicons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../../images/favicons/favicon-16x16.png">
+		<link rel="manifest" href="../../images/favicons/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- End Icons -->
+
+		<!-- Start OG Tags -->
+
+		<meta property="og:site_name" content="BFM Skin">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="BFM Skin">
+		<meta property="og:description" content="BFM Skin">
+		<meta property="og:image" content="images/bfm-logo.jpg">
+		<meta property="og:url" content="https://www.bayfrontmedia.com/">
+		
+		<!-- End OG Tags -->
+
+		<title>BFM Skin</title>
+		<meta name="description" content="BFM Skin">
+	
+	</head>
+	
+	<body class="flat edge">
+
+		<div id="top-nav-container" class="shadow">
+			
+			<div class="top-nav-contents-xl">
+
+				<a id="top-nav-logo" href="../../index.html" title="Home"><img src="../../images/bfm-skin-nav.png" alt="BFM Skin" /></a>
+				
+				<nav id="top-nav-list">
+					<ul>
+						<li><a href="../../index.html" title="Home">Home</a></li>
+						<li><a href="../index.html" title="Getting started">Getting Started</a></li>
+						<li><a href="index.html" title="Components">Components</a></li>
+						<li><a href="../templates/index.html" title="Templates">Templates</a></li>
+					</ul>
+				</nav>
+				
+				<i id="top-nav-toggle" class="fal fa-bars"></i>
+					
+			</div> <!-- /.top-nav-contents-lg -->
+	
+		</div> <!-- /#top-nav-container -->
+	
+		<div id="wrapper">
+			
+			<div id="content" class="container-xl no-top">
+				
+				<div class="row flex-md-row-reverse">
+					
+					<main class="col-md-8 padding1-0">
+						
+						<ul class="horizontal kb-breadcrumb">
+							<li><a href="../../index.html" title="Skin">Skin</a></li>
+							<li><a href="index.html" title="Components">Components</a></li>
+							<li>Forms</li>
+						</ul>
+	
+						<h1>Forms</h1>
+				
+						<p>Additional documentation on HTML forms:<br />
+							<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" title="Inputs" target="_blank">Input element</a><br />
+							<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms" title="Forms" target="_blank">Forms</a>
+						</p>
+					
+					
+						<h2 id="inputs">Inputs</h2>
+					
+						<h4>Input with no label</h4>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<input type="text" id="text1" name="text_input1" placeholder="Text input" />
+	
+							</div> <!-- /.col-md-6 -->
+	
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;input type="text" id="text1" name="text_input1" placeholder="Text input" /&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<h4>Input with label</h4>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="text2">Text input</label>
+			
+								<input type="text" id="text2" name="text_input2" placeholder="Text input" />
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;input type="text" id="text2" name="text_input2" placeholder="Text input" /&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<h4>Disabled input</h4>
+					
+						<div class="row">
+	
+							<div class="col-md-6">
+	
+								<input type="text" id="text3" name="text_input3" value="Text input" disabled>
+		
+							</div> <!-- /.col-md-6 -->
+		
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;input type="text" id="text3" name="text_input3" value="Text input" disabled&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<h4>Input error</h4>
+					
+						<div class="row">
+	
+							<div class="col-md-6">
+	
+								<input type="text" class="input-error" id="text4" name="text_input4" placeholder="Text input">
+		
+							</div> <!-- /.col-md-6 -->
+		
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;input type="text" class="input-error" id="text4" name="text_input4" placeholder="Text input"&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<h4>File input</h4>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="file1">File upload</label>
+								<input type="file" id="file1" name="file_1" />
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="file1">File upload&lt;/label&gt;
+									&lt;input type="file" id="file1" name="file_1" /&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<h4 id="radio">Radio</h4>
+	
+						<p>Labels for radio buttons must go after the input.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<input type="radio" name="radio1" id="radio1_1" value="First" />	
+								<label for="radio1_1">First</label>
+			
+								<input type="radio" name="radio1" id="radio1_2" value="Second" />		
+								<label for="radio1_2">Second</label>
+			
+								<input type="radio" name="radio1" id="radio1_3" value="Third" />	
+								<label for="radio1_3">Third</label>
+			
+								<input type="radio" name="radio1" id="radio1_4" value="Fourth" />
+								<label for="radio1_4">Fourth</label>
+			
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;input type="radio" name="radio1" id="radio1_1" value="First" /&gt;
+									&lt;label for="radio1_1"&gt;First&lt;/label&gt;
+			
+									&lt;input type="radio" name="radio1" id="radio1_2" value="Second" /&gt;		
+									&lt;label for="radio1_2"&gt;Second&lt;/label&gt;
+			
+									&lt;input type="radio" name="radio1" id="radio1_3" value="Third" /&gt;
+									&lt;label for="radio1_3"&gt;Third&lt;/label&gt;
+			
+									&lt;input type="radio" name="radio1" id="radio1_4" value="Fourth" /&gt;
+									&lt;label for="radio1_4"&gt;Fourth&lt;/label&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<p>To align horizontally on the same row for medium screen widths and above, wrap in class <code>form-same-line</code>.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<div class="form-same-line">
+				
+									<input type="radio" name="radio2" id="radio2_1" value="First" />	
+									<label for="radio2_1">First</label>
+					
+									<input type="radio" name="radio2" id="radio2_2" value="Second" />		
+									<label for="radio2_2">Second</label>
+				
+									<input type="radio" name="radio2" id="radio2_3" value="Third" />	
+									<label for="radio2_3">Third</label>
+			
+									<input type="radio" name="radio2" id="radio2_4" value="Fourth" />
+									<label for="radio2_4">Fourth</label>
+				
+								</div> <!-- /.form-same-line -->
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;div class="form-same-line"&gt;
+				
+										&lt;input type="radio" name="radio2" id="radio2_1" value="First" /&gt;
+										&lt;label for="radio2_1"&gt;First&lt;/label&gt;
+					
+										&lt;input type="radio" name="radio2" id="radio2_2" value="Second" /&gt;
+										&lt;label for="radio2_2"&gt;Second&lt;/label&gt;
+				
+										&lt;input type="radio" name="radio2" id="radio2_3" value="Third" /&gt;
+										&lt;label for="radio2_3"&gt;Third&lt;/label&gt;
+			
+										&lt;input type="radio" name="radio2" id="radio2_4" value="Fourth" /&gt;
+										&lt;label for="radio2_4"&gt;Fourth&lt;/label&gt;
+				
+									&lt;/div&gt; &lt;!-- /.form-same-line --&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<h4 id="checkbox">Checkbox</h4>
+	
+						<p>Labels for checkboxes must go after the input.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<input type="checkbox" name="checkbox1" id="checkbox1_1" value="First" />
+								<label for="checkbox1_1"> First</label>
+			
+								<input type="checkbox" name="checkbox1" id="checkbox1_2" value="Second" />
+								<label for="checkbox1_2"> Second</label>
+			
+								<input type="checkbox" name="checkbox1" id="checkbox1_3" value="Third" />
+								<label for="checkbox1_3"> Third</label>
+			
+								<input type="checkbox" name="checkbox1" id="checkbox1_4" value="Fourth" />
+								<label for="checkbox1_4"> Fourth</label>
+	
+							</div> <!-- /.col-md6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;input type="checkbox" name="checkbox1" id="checkbox1_1" value="First" /&gt;
+									&lt;label for="checkbox1_1"&gt; First&lt;/label&gt;
+			
+									&lt;input type="checkbox" name="checkbox1" id="checkbox1_2" value="Second" /&gt;
+									&lt;label for="checkbox1_2"&gt; Second&lt;/label&gt;
+			
+									&lt;input type="checkbox" name="checkbox1" id="checkbox1_3" value="Third" /&gt;
+									&lt;label for="checkbox1_3"&gt; Third&lt;/label&gt;
+			
+									&lt;input type="checkbox" name="checkbox1" id="checkbox1_4" value="Fourth" /&gt;
+									&lt;label for="checkbox1_4"&gt; Fourth&lt;/label&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<p>To align horizontally on the same row for medium screen widths and above, wrap in class <code>form-same-line</code>.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<div class="form-same-line">
+				
+									<input type="checkbox" name="checkbox2" id="checkbox2_1" value="First" />
+									<label for="checkbox2_1"> First</label>
+			
+									<input type="checkbox" name="checkbox2" id="checkbox2_2" value="Second" />
+									<label for="checkbox2_2"> Second</label>
+			
+									<input type="checkbox" name="checkbox2" id="checkbox2_3" value="Third" />
+									<label for="checkbox2_3"> Third</label>
+			
+									<input type="checkbox" name="checkbox2" id="checkbox2_4" value="Fourth" />
+									<label for="checkbox2_4"> Fourth</label>
+				
+								</div> <!-- /.form-same-line -->
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;div class="form-same-line"&gt;
+									
+										&lt;input type="checkbox" name="checkbox2" id="checkbox2_1" value="First" /&gt;
+										&lt;label for="checkbox2_1"&gt; First&lt;/label&gt;
+			
+										&lt;input type="checkbox" name="checkbox2" id="checkbox2_2" value="Second" /&gt;
+										&lt;label for="checkbox2_2"&gt; Second&lt;/label&gt;
+			
+										&lt;input type="checkbox" name="checkbox2" id="checkbox2_3" value="Third" /&gt;
+										&lt;label for="checkbox2_3"&gt; Third&lt;/label&gt;
+			
+										&lt;input type="checkbox" name="checkbox2" id="checkbox2_4" value="Fourth" /&gt;
+										&lt;label for="checkbox2_4"&gt; Fourth&lt;/label&gt;
+								
+									&lt;/div&gt; &lt;!-- /.form-same-line --&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<h2 id="textareas">Textareas</h2>
+	
+						<p>Add class <code>md</code> or <code>lg</code> to a textarea to make the default height larger.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="textarea1">Default text area</label>
+								<textarea id="textarea1" name="text_area1" placeholder="Text area"></textarea>
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="textarea1"&gt;Default text area&lt;/label&gt;
+									&lt;textarea id="textarea1" name="text_area1" placeholder="Text area"&gt;&lt;/textarea&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="textarea2">Medium text area</label>
+								<textarea class="md" id="textarea2" name="text_area2" placeholder="Text area"></textarea>
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="textarea2"&gt;Medium text area&lt;/label&gt;
+									&lt;textarea class="md" id="textarea2" name="text_area2" placeholder="Text area"&gt;&lt;/textarea&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="textarea3">Large text area</label>
+								<textarea class="lg" id="textarea3" name="text_area3" placeholder="Text area"></textarea>
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="textarea3"&gt;Large text area&lt;/label&gt;
+									&lt;textarea class="lg" id="textarea3" name="text_area3" placeholder="Text area"&gt;&lt;/textarea&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<h2 id="select">Select</h2>
+	
+						<p>Selects must be wrapped inside of a <code>select-wrap</code> element in order to show the down arrow.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="select1">Select 1</label>
+			
+								<div class="select-wrap">
+			
+									<select id="select1" name="select_one">
+										<option value="First">First</option>
+										<option value="Second">Second</option>
+										<option value="Third">Third</option>
+										<option value="Fourth">Fourth</option>
+									</select>
+	
+								</div> <!-- /.select-wrap-->
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="select1"&gt;Select 1&lt;/label&gt;
+			
+									&lt;div class="select-wrap"&gt;
+			
+										&lt;select id="select1" name="select_one"&gt;
+											&lt;option value="First"&gt;First&lt;/option&gt;
+											&lt;option value="Second"&gt;Second&lt;/option&gt;
+											&lt;option value="Third"&gt;Third&lt;/option&gt;
+											&lt;option value="Fourth"&gt;Fourth&lt;/option&gt;
+										&lt;/select&gt;
+	
+									&lt;/div&gt; &lt;!-- /.select-wrap--&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<h2 id="fieldsets">Fieldsets</h2>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<fieldset>
+				
+									<legend>Fieldset Legend</legend>
+				
+									<label for="text5">Text input</label>
+									<input type="text" id="text5" name="text_5" placeholder="Text input" />
+				
+									<label for="text6">Text input</label>
+									<input type="text" id="text6" name="text_6" placeholder="Text input" />
+				
+								</fieldset>
+				
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;fieldset&gt;
+				
+										&lt;legend&gt;Fieldset Legend&lt;/legend&gt;
+				
+										&lt;label for="text5"&gt;Text input&lt;/label&gt;
+										&lt;input type="text" id="text5" name="text_5" placeholder="Text input" /&gt;
+				
+										&lt;label for="text6"&gt;Text input&lt;/label&gt;
+										&lt;input type="text" id="text6" name="text_6" placeholder="Text input" /&gt;
+				
+									&lt;/fieldset&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<h2 id="append-prepend">Icon prepend/append</h2>
+	
+						<p>Wrap the form element and icon inside a <code>form-icon-prepend</code> or <code>form-icon-append</code> element.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="text7">Prepend icon</label>
+			
+								<div class="form-icon-prepend">
+				
+									<input id="text7" name="text_7" type="text" placeholder="Prepend icon" />
+									<i class="fal fa-search"></i>
+				
+								</div> <!-- /.form-icon-prepend -->
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="text7"&gt;Prepend icon&lt;/label&gt;
+			
+									&lt;div class="form-icon-prepend"&gt;
+				
+										&lt;input id="text7" name="text_7" type="text" placeholder="Prepend icon" /&gt;
+										&lt;i class="fal fa-search"&gt;&lt;/i&gt;
+				
+									&lt;/div&gt; &lt;!-- /.form-icon-prepend --&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="text8">Append icon</label>
+			
+								<div class="form-icon-append">
+				
+									<input id="text8" name="text_8" type="text" placeholder="Append icon" />
+									<i class="fal fa-search"></i>
+				
+								</div> <!-- /.form-icon-append -->
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="text8"&gt;Append icon&lt;/label&gt;
+			
+									&lt;div class="form-icon-append"&gt;
+				
+										&lt;input id="text8" name="text_8" type="text" placeholder="Append icon" /&gt;
+										&lt;i class="fal fa-search"&gt;&lt;/i&gt;
+				
+									&lt;/div&gt; &lt;!-- /.form-icon-append --&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<h2 id="button-append">Button append</h2>
+	
+						<p>Wrap the input and button inside a <code>form-button-append</code> element.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<label for="text9">Text input</label>
+			
+								<div class="form-button-append">
+			
+									<input id="text9" name="text_9" type="text" placeholder="Text input" />
+									<button type="submit"> <i class="fal fa-save"></i> Search</button>
+				
+								</div> <!-- /.form-button-append -->
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;label for="text9"&gt;Text input&lt;/label&gt;
+			
+									&lt;div class="form-button-append"&gt;
+			
+										&lt;input id="text9" name="text_9" type="text" placeholder="Text input" /&gt;
+										&lt;button type="submit"&gt; &lt;i class="fal fa-save"&gt;&lt;/i&gt; Search&lt;/button&gt;
+				
+									&lt;/div&gt; &lt;!-- /.form-button-append --&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<h2 id="same-line">Same line elements</h2>
+	
+						<p>Form elements will appear on the same line on medium screen widths and above by wrapping them in class <code>form-same-line</code>. Check window resizing to be sure nothing overflows. This works best for a single input and a button. For multiple inputs, it may be best to use columns. This will also give more control over the width of each input.</p>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+		
+								<div class="form-same-line">
+		
+									<input id="text10" name="text_10" type="text" placeholder="Text input" /> <button type="submit"> <i class="fal fa-save"></i> Search</button>
+				
+								</div> <!-- /.form-same-line -->
+		
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;div class="form-same-line"&gt;
+		
+										&lt;input id="text10" name="text_10" type="text" placeholder="Text input" /&gt; &lt;button type="submit"&gt; &lt;i class="fal fa-save"&gt;&lt;/i&gt; Search&lt;/button&gt;
+				
+									&lt;/div&gt; &lt;!-- /.form-same-line --&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+					
+						<h2 id="submit-buttons">Submit buttons</h2>
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<button type="submit"><i class="fal fa-save"></i> Submit button</button>
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;button type="submit"&gt;&lt;i class="fal fa-save"&gt;&lt;/i&gt; Submit button&lt;/button&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+						<div class="row">
+	
+							<div class="col-md-6">
+			
+								<input type="submit" value="Input type submit">
+	
+							</div> <!-- /.col-md-6 -->
+	
+						</div> <!-- /.row -->
+					
+						<div class="row">
+	
+							<div class="col-12">
+		
+								<pre><code class="language-html">
+									&lt;input type="submit" value="Input type submit"&gt;
+								</pre></code>
+		
+							</div> <!-- /.col-12 -->
+		
+						</div> <!-- /.row -->
+	
+					</main> <!-- /.col-md-8 -->
+
+					<aside class="col-md-4 padding1-0 bg-main border-solid border-right1 border-left1 border-main">
+	
+						<h4>Topics</h4>
+						
+						<div class="toggle-all kb-toggle-all color-light em0-8 pointer" data-label="- Collapse all">+ Expand all</div>
+						
+						<div class="toggle-title kb-menu-title border-top1 border-solid border-main" data-toggle="introduction">Introduction <span class="toggle-icon"><i class="fal fa-angle-right"></i></span></div>
+						<div class="toggle-content" id="introduction">
+							
+							<ul class="indent">
+								<li><a href="../index.html" title="Getting started">Getting started</a></li>
+								<li><a href="../build-page.html" title="Build a page">Build a page</a></li>
+								<li><a href="../changelog.html" title="Changelog">Changelog</a></li>
+								<li><a href="../about.html" title="About">About</a></li>
+								<li><a href="../vendors.html" title="Vendors">Vendors</a></li>
+							</ul>
+							
+						</div>
+						
+						<div class="toggle-title kb-menu-title border-top1 border-solid border-main" data-toggle="components">Components <span class="toggle-icon"><i class="fal fa-angle-right"></i></span></div>
+						<div class="toggle-content toggle-open" id="components">
+							
+							<ul class="indent color-light">
+								<li><a href="animate.html" title="Animate">Animate</a></li>
+								<li><a href="badges.html" title="Badges">Badges</a></li>
+								<li><a href="blockquote.html" title="Blockquote">Blockquote</a></li>
+								<li><a href="bottom-bar.html" title="Bottom bar">Bottom bar</a></li>
+								<li><a href="buttons.html" title="Buttons">Buttons</a></li>
+								<li><a href="code.html" title="Code">Code</a></li>
+								<li><a href="customization.html" title="Customization">Customization</a></li>
+								<li><a href="fonts.html" title="Fonts">Fonts</a></li>
+								<li>Forms</li>
+								<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+								<li><a href="grid.html" title="Grid">Grid</a></li>
+								<li><a href="icons.html" title="Icons">Icons</a></li>
+								<li><a href="images.html" title="Images">Images</a></li>
+								<li><a href="javascript.html" title="Javascript">Javscript</a></li>
+								<li><a href="notes.html" title="Notes">Notes</a></li>
+								<li><a href="progress-bars.html" title="Progress bars">Progress bars</a></li>
+								<li><a href="tables.html" title="Tables">Tables</a></li>
+								<li><a href="toggle.html" title="Toggle">Toggle</a></li>
+								<li><a href="typography.html" title="Typography">Typography</a></li>
+							</ul>
+							
+						</div>
+						
+						<div class="toggle-title kb-menu-title border-top1 border-solid border-main" data-toggle="templates">Templates <span class="toggle-icon"><i class="fal fa-angle-right"></i></span></div>
+						<div class="toggle-content" id="templates">
+							
+							<ul class="indent">
+								<li><a href="../templates/page-default.html" title="Default page">Default page</a></li>
+								<li><a href="../templates/page-edge.html" title="Edge page">Edge page</a></li>
+								<li><a href="../templates/page-flat.html" title="Flat page">Flat page</a></li>
+								<li><a href="../templates/page-boxed.html" title="Boxed page">Boxed page</a></li>
+								<li><a href="../templates/knowledgebase.html" title="Knowledgebase">Knowledgebase</a></li>
+								<li><a href="../templates/landing-page.html" title="Landing page">Landing page</a></li>
+							</ul>
+							
+						</div>
+						
+					</aside> <!-- /.col-md-4 -->
+
+				</div> <!-- /.row -->
+				
+				<footer>
+					
+					<div class="row align-items-center">
+					
+						<div class="col-6">
+							
+							<a href="//bayfrontmedia.github.io/skin" title="Skin Docs"><img class="skin-icon" src="../../images/bfm-skin-icon.png" alt="Skin Docs" /></a>
+							
+						</div> <!-- /.col-6 -->
+						
+						<div class="col-6">
+							
+							<p class="align-right">Skin v1.0<br /><a href="https://github.com/bayfrontmedia/skin" title="Skin on GitHub">Skin on GitHub</a></p>
+							
+						</div> <!-- /.col-6 -->
+						
+					</div> <!-- /.row -->
+					
+				</footer>
+				
+			</div> <!-- /#content -->
+		
+		</div> <!-- /#wrapper -->
+	
+		<a id="top-button" href="#top" title="Scroll to top"><span class="fa-stack"><i class="fal fa-circle fa-stack-2x"></i><i class="fal fa-arrow-to-top fa-stack-1x"></i></span></a>
+	
+		<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script src="../../vendor/prism/prism.js"></script>
+	
+		<script src="../../js/bfm-skin-scripts.min.js"></script>
+
+	</body>
+	
+</html>
