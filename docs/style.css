@@ -1,5 +1,5 @@
 /*
-* @package Bayfront Skin
+* @package Skin
 * @version 1.0
 *
 * @author John Robinson <john@bayfrontmedia.com>
