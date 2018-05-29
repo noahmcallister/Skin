@@ -11,7 +11,6 @@
 /* -------------------- Skin Docs -------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
-/* Also see: source sans pro, roboto slab */
 
 body {
 	font-family: 'Poppins', sans-serif;
@@ -19,25 +18,11 @@ body {
 	background-color: #f2f2f2;
 }
 
-body, code, pre {
-
-    line-height: 1.618;
-
-}
-
-@media (min-width: 600px) { 
-	
-	body {
-		font-size: 16px;
-	}
-}
-
 h1, h2, h3, h4, h5, h6, th, blockquote, .pullquote, .shoutout, button, .button, .badge, .progress-amt, input[type='submit'] {
 	font-weight: 500;
 	letter-spacing: 0.5px;
 }
 #top-nav-container {
-
 	font-weight: 400;
 	letter-spacing: 0.5px;
 }
@@ -62,23 +47,8 @@ footer p {
 	max-height: 40px;
 }
 
-
 /* -------------------- Knowledgebase -------------------- */
 
-.kb-breadcrumb {
-	font-size: 0.8em;
-	color: #808080;
-}
-.kb-breadcrumb li:after {
-	font-family: 'Font Awesome 5 Pro';
-	content: "\f105"; /* angle-right */
-	position: relative;
-	left: 8px;
-	top: 1px;
-}
-.kb-breadcrumb li:last-of-type:after {
-	content: "";
-}
 .kb-toggle-all {
 	margin-bottom: 1em;
 }
